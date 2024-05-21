@@ -493,10 +493,12 @@ footer section {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
     .cool-container h1 {
-        font-size: 2.5rem;
+        font-size: 1rem;
+    }
+
+    section p {
         text-align: center;
-        align-self: center;
     }
 }
