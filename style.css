@@ -30,7 +30,7 @@ p {
     background-color: #fff;
     display: grid;
     grid-template-columns: auto auto auto;
-    height: 15vh;
+    height: 10vh;
     align-items: center;
     box-shadow: .1vw 0 2vw #efefef;
 }
