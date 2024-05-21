@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OGD.STUDIOS</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="icon" href="resLogo.png">
+        <script src="https://kit.fontawesome.com/4bb97de01e.js"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="nav">
+            <h3 id="logo">OGD.STUDIOS</h3>
+            <ul id="nav-link-parent">
+                <a target="blank" href="https://ogdesignstudios.gumroad.com/?_gl=1*1ykiu0j*_ga*MTQ2OTAwNDA3NC4xNzEwMjU5NDQw*_ga_6LJN6D94N6*MTcxNjA0ODk5NS40LjEuMTcxNjA0OTAwOC4wLjAuMA.."><li class="nav-link">Templates</li></a>
+                <a target="blank" href="https://www.fiverr.com/ogdstudios/design-a-custom-website"><li class="nav-link">Hire</li></a>
+            </ul>
+        </div>
+
+        <div class="head-container">
+
+            <div class="cool-container">
+                <h1 id="intro-h1">Hi, I am OGD</h1>
+
+                <div class="section-parent">
+                <section id="info">
+                    <p>
+                        As a <span class="highlight">web designer</span> with
+                        <span class="highlight">four years of experience</span>,
+                        I
+                        seamlessly blend aesthetics and user experience
+                        principles to craft immersive digital platforms. My
+                        expertise shines through in my ability to create
+                        visually captivating designs while <span class="highlight">prioritizing user
+                        engagement and accessibility</span>. My work reflects a deep
+                        understanding of the intricate balance between form and
+                        function in web design.</p>
+                    <a href="#footer"><button id="cta">- Let's Work Together -</button></a>
+                </section>
+
+                <section id="external-nav">
+                    <ul id="ex-nav-ul">
+                        <li><a target="blank" href="https://www.fiverr.com/ogdstudios">Fiverr</a></li>
+                        <li><a target="blank" href="https://www.behance.net/ogdesign3">Behance</a></li>
+                        <li><a target="blank" href="https://www.instagram.com/ogd.studios/">Instagram</a></li>
+                    </ul>
+                </section>
+                </div>
+            </div>
+        </div>
+
+        <div id="content-parent">
+            <h1>OGD Portfolio.</h1>
+            <div id="slideshow">
+                    <img name="image">
+            </div>
+        </div>
+
+        <footer id="footer">
+            <h1>Contact Form.</h1>
+            <div id="content-3">
+            <form action="https://formsubmit.co/ogdesign.inter@gmail.com" method="POST">
+                <input name="name" placeholder="Your Name" required>
+                <input name="email" placeholder="Your Email" type="email" required>
+                <textarea name="message" rows="4" id="msg"></textarea>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit">Done</button>
+            </form>
+            <section id="external-nav-foot">
+                <ul id="ex-nav-ul-foot">
+                    <li><a href="https://www.fiverr.com/ogdstudios">Fiverr</a></li>
+                    <li><a href="https://www.behance.net/ogdesign3">Behance</a></li>
+                    <li><a href="https://www.instagram.com/ogd.studios/">Instagram</a></li>
+                </ul>
+                <h1 id="logo-foot">OGD.STUDIOS</h1>
+            </section>
+            </div>
+        </footer>
+
+
+
+
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyAi4KfRinfBtjZ_DF7JYCO8iEIrYBDF-DA",
+              authDomain: "ogd-studios.firebaseapp.com",
+              projectId: "ogd-studios",
+              storageBucket: "ogd-studios.appspot.com",
+              messagingSenderId: "667408112418",
+              appId: "1:667408112418:web:fc55db10c72ef1a763e37b",
+              measurementId: "G-C84RG5KW2C"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+          </script>
+    </body>
+
+    <script src="main.js"></script>
+</html>
