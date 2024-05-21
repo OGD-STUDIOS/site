@@ -30,7 +30,7 @@ p {
     background-color: #fff;
     display: grid;
     grid-template-columns: auto auto auto;
-    height: 10vh;
+    height: 15vh;
     align-items: center;
     box-shadow: .1vw 0 2vw #efefef;
 }
@@ -496,6 +496,10 @@ footer section {
 @media screen and (max-width: 350px) {
     #intro-h1 {
         font-size: 2rem;
+    }
+
+    .nav {
+        height: 12vh;
     }
 
     section p {
