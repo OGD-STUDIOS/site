@@ -60,12 +60,14 @@
         <footer id="footer">
             <h1>Contact Form.</h1>
             <div id="content-3">
-            <form action="https://formsubmit.co/ogdesign.inter@gmail.com" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="6ad3ad09-81fb-4b4b-88bc-c6dddcb009fe">
                 <input name="name" placeholder="Your Name" required>
                 <input name="email" placeholder="Your Email" type="email" required>
                 <textarea name="message" rows="4" id="msg"></textarea>
-                <input type="hidden" name="_next" value="https://ogd-studios.github.io/site/thanks.html">
+                <input type="hidden" name="redirect" value="https://ogd-studios.github.io/site/thanks.html">
                 <input type="hidden" name="_captcha" value="false">
+                <div class="h-captcha" data-captcha="true"></div>
                 <button type="submit">Done</button>
             </form>
             <section id="external-nav-foot">
@@ -78,6 +80,7 @@
             </section>
             </div>
         </footer>
+        <script src="https://web3forms.com/client/script.js" async defer></script>
     </body>
 
     <script src="main.js"></script>
