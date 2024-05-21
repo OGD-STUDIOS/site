@@ -475,6 +475,10 @@ footer section {
         height: 100%;
     }
 
+    .cool-container h1 {
+        font-size: 3rem;
+    }
+
     .section-parent {
         height: 80%;
     }
