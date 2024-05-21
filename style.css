@@ -494,7 +494,7 @@ footer section {
 }
 
 @media screen and (max-width: 350px) {
-    .cool-container h1 {
+    #intro-h1 {
         font-size: 1rem;
     }
 
