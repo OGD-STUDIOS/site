@@ -10,9 +10,7 @@ function changeImage() {
     document.image.src = images[index];
 
     if (index < images.length - 1) {
-        document.image.style = "opacity: 0;"
         index++;
-        document.image.style = "animation: fade 5s infinite";
     } else {
         index = 0;
     }
