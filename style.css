@@ -312,6 +312,7 @@ footer form button:hover {
     list-style-type: none;
     display: grid;
     align-content: center;
+    height: 8vh;
 }
 
 #ex-nav-ul-foot li:hover {
@@ -457,10 +458,6 @@ footer section {
     #ex-nav-ul-foot {
         width: 100%;
         padding: 0;
-    }
-
-    #ex-nav-ul-foot li {
-        padding: 4vh;
     }
 
     #logo-foot {
