@@ -312,7 +312,7 @@ footer form button:hover {
     list-style-type: none;
     display: grid;
     align-content: center;
-    height: 8vh;
+    height: 10vh;
 }
 
 #ex-nav-ul-foot li:hover {
