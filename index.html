@@ -60,7 +60,7 @@
         <footer id="footer">
             <h1>Contact Form.</h1>
             <div id="content-3">
-            <form action="https://api.web3forms.com/submit" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST" id="FORM">
                 <input type="hidden" name="access_key" value="6ad3ad09-81fb-4b4b-88bc-c6dddcb009fe">
                 <input name="name" placeholder="Your Name" required>
                 <input name="email" placeholder="Your Email" type="email" required>
@@ -80,6 +80,20 @@
             </div>
         </footer>
 <script src="https://web3forms.com/client/script.js" async defer></script>
+<script>
+    const form = document.getElementById('FORM');
+    
+    form.addEventListener('submit', function(e) {
+    
+        const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
+    
+        if (!hCaptcha) {
+            e.preventDefault();
+            alert("Please fill out captcha field")
+            return
+        }
+    });
+    </script>
     </body>
 
     <script src="main.js"></script>
