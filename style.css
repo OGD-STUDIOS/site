@@ -426,6 +426,10 @@ footer section {
         text-align: left;
     }
 
+    #ex-nav-ul li {
+        height: 100%;
+    }
+
     #scroll-btn {
         display: none;
     }
