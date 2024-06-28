@@ -222,7 +222,7 @@ li a {
     box-shadow: 0.01vw 0vw 2vw #f5f5f5;
     color: rgb(40, 40, 40);
     font-family: 'Inter', sans-serif;
-    padding: 2vw;
+    padding: 2.5vw;
     border: .1vw solid rgba(0, 0, 0, .1);
     border-radius: .4vw;
     transition: .2s;
