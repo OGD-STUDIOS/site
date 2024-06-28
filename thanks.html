@@ -16,7 +16,6 @@
     }
     body {
         margin: 0;
-        text-align: center;
         background: rgb(9, 76, 167);
         background: radial-gradient(circle, rgba(9, 76, 167, 1) 20%, rgba(0, 249, 179, 1) 100%, rgba(0, 212, 255, 1) 100%);
     }
@@ -25,11 +24,12 @@
         color: #fff;
         font-family: 'Inter';
         font-weight: 800;
-        font-size: 4em;
+        font-size: 2em;
         }
 
         p {
-            font-size: 2em;
+            font-size: 1em;
+            font-weight: 400;
         }
 
         #thank-wrapper {
@@ -50,6 +50,10 @@
             border-radius: .2vw;
             letter-spacing: .1vw;
             width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2vw;
         }
 
         #inbox {
@@ -59,6 +63,8 @@
 
         a {
             width: 100vw;
+            text-decoration: none;
+            color: rgb(40,40,40)
         }
 
         @media screen and (max-width: 800px) {
@@ -79,7 +85,7 @@
 </style>
     <body>
         <a href="index.html">
-            <button> <i class="fa-solid fa-arrow-left"></i> Back</button>
+            <button> <i class="fa-solid fa-arrow-left"></i>Back</button>
         </a>
         <div id="thank-wrapper">
             <i id="inbox" class="fa-solid fa-inbox"></i>
