@@ -20,7 +20,7 @@ p {
 
 .head-container {
     height: 100vh;
-    padding: 4vh 4vw;
+    padding: 1vh 4vw;
     background: rgb(9, 76, 167);
     background: radial-gradient(circle, rgba(9, 76, 167, 1) 20%, rgba(0, 249, 179, 1) 100%, rgba(0, 212, 255, 1) 100%);
 }
@@ -127,7 +127,8 @@ li a {
 
 .cool-container h1 {
     width: 100%;
-    font-size: 4rem;
+    font-size: 48px;
+    padding-top: 4vw;
     overflow: hidden;
     text-align: center;
 }
@@ -190,8 +191,7 @@ li a {
 
 #content-parent {
     width: 100%;
-    height: fit-content;
-    font-size: 1.5rem;
+    height: 100vh;
     padding: 4vw;
 }
 
@@ -241,8 +241,8 @@ img {
 
 #folio-link-img {
     box-shadow: none;
-    max-height: 50%;
-    max-width: 50%;
+    height: 50%;
+    width: 50%;
     margin: 4vw;
 }
 
@@ -254,7 +254,6 @@ img {
 #portf-label {
     font-family: "Inter";
     text-align: center;
-    font-size: 2em;
     padding: 4vw;
     color: rgb(40, 40, 40);
 }
