@@ -11,6 +11,7 @@ a {
     font-family: "Inter";
     color: rgb(40, 40, 40);
     text-decoration: none;
+    display: block;
 }
 
 p {
@@ -107,6 +108,10 @@ li a {
     list-style-type: none;
 }
 
+#ex-nav-ul li a {
+    width: 100%;
+}
+
 #ex-nav-ul li:hover {
     background-color: rgba(250, 250, 250, .1);
     filter: blur(100);
@@ -127,6 +132,7 @@ li a {
 
 .cool-container h1 {
     width: 100%;
+    font-size: 48px;
     padding-top: 4vw;
     overflow: hidden;
     text-align: center;
@@ -190,12 +196,8 @@ li a {
 
 #content-parent {
     width: 100%;
-    height: fit-content;
+    height: 100vh;
     padding: 4vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 #content-parent h1 {
@@ -257,7 +259,7 @@ img {
 #portf-label {
     font-family: "Inter";
     text-align: center;
-    padding: 8vw;
+    padding: 4vw;
     color: rgb(40, 40, 40);
 }
 
@@ -588,10 +590,5 @@ footer section {
         height: 80%;
         flex-direction: column;
         justify-content: space-evenly;
-    }
-
-    #link-portfolio btn {
-        width: 100%;
-        padding: 2.5vw;
     }
 }
