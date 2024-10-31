@@ -244,7 +244,9 @@ li a {
 }
 
 #link-portfolio {
-    width: 80%;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
 }
 
 #link-portfolio button {
@@ -595,7 +597,14 @@ footer section {
 
 @media screen and (max-width: 500px) {
     .nav {
-        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .section-parent {
+        display: flex;
+        flex-direction: column;
     }
 
     #nav-link-parent {
